@@ -1,7 +1,15 @@
 ### Boiler Plate React Step By Step
 
-1. npm install create-react-app
-2. install redux, react-redux, axios and redux-thunk
+1. Create the React App
+```
+npm install create-react-app
+```
+
+2. Install Dependencies
+```
+npm install redux react-redux axios redux-thunk`
+```
+
 3. Set up index.js file for Redux
 ```
 import React from 'react';
