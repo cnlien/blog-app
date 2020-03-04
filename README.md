@@ -140,4 +140,4 @@ export default combineReducers({
 
 
   #### Memoize
-  [Lodash](https://lodash.com/docs);
+  [Lodash](https://lodash.com/docs)
