@@ -137,3 +137,7 @@ export default combineReducers({
  3. Must no return reach 'out of itself' to decide what value to return _reducers are pure funtions_
  4. Must not mutate it's input state argument
   - _(MISLEADING RULE BECAUSE IT'S ALLOWED BUT JUST A VERY BAD IDEA)_
+
+
+  #### Memoize
+  [Lodash](https://lodash.com/docs);
