@@ -44,17 +44,17 @@ export default combineReducers({
 });
 ```
 
-##### General Data Loading with Redux
-- _*Components:* Components are generally responsible for fetching data they need by calling an action creator_
+## General Data Loading with Redux
+- #### Components: Components are generally responsible for fetching data they need by calling an action creator
  1. Component Gets rendered onto the screen
  2. Component's `componentDidMount` lifecycle method gets called
  3. We call action creator from `componentDidMount`
 
-- _*Action Creators:* Action Creators are responsible for making APi requests_
+- #### Action Creators: Action Creators are responsible for making APi requests
  4. Action creator runs code to make an API Request
  5. API Responds to data
  6. Action creator returns an 'action' with the fetched data on the `payload` property
 
-- _*Reducers Consume the Action: We get fetched data into a component by generating new state in our redux store, then getting that into our component through `mapStateToProps`*_
+- #### Reducers Consume the Action: We get fetched data into a component by generating new state in our redux store, then getting that into our component through `mapStateToProps`
  7. Some reducer sees the action, returns the data off the `payload`
  8. Since a new state object is generated redux/react-redux cause our React app to be rerendered
