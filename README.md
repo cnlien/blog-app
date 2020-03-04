@@ -35,3 +35,9 @@ ReactDOM.render(
     document.getElementById('root')
 );
 ```
+
+4. Create a reducers directory and add an index.js file and import `combineReducers` from redux.
+```
+import { combineReducers } from 'redux';
+export default combineReducers({});
+```
